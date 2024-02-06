@@ -9,6 +9,9 @@ package kass.concurrente.modelo.cuchillo;
  */
 public class CuchilloFactory {
 
+  private CuchilloFactory() {
+  }
+
   /**
    * Método estático que entrega una instancia de un cuchillo
    * dependiendo su tipo.
