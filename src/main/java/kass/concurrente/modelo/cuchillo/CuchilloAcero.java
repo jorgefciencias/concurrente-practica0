@@ -13,6 +13,6 @@ public class CuchilloAcero implements Cuchillo {
    */
   @Override
   public Integer corta() {
-    return 3;
+    return 2;
   }
 }

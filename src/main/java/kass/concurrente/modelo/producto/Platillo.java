@@ -86,18 +86,7 @@ public class Platillo {
         this.productos = productos;
     }
 
-    public Platillo() {
-    }
-
-    public Platillo(String nombre, Integer tiempoCoccion, List<Producto> productos) {
-        this.nombre = nombre;
-        this.tiempoCoccion = tiempoCoccion;
-        this.productos = productos;
-    }
-
-    public Platillo(String nombre, Integer tiempoCoccion, List<Producto> productos, Double precio) {
-        this(nombre, tiempoCoccion, productos);
-        this.precio = precio;
+    private Platillo() {
     }
 
     private Platillo(Builder builder) {

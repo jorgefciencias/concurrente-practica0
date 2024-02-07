@@ -26,12 +26,7 @@ public class ProductoInventario extends Producto {
         this.cantidad = cantidad;
     }
 
-    public ProductoInventario() {
-    }
-
-    public ProductoInventario(String nombre, Double precio, Integer cantidad) {
-        super(nombre, precio);
-        this.cantidad = cantidad;
+    private ProductoInventario() {
     }
 
     private ProductoInventario(Builder builder) {

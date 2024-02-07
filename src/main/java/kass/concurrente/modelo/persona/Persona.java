@@ -45,12 +45,7 @@ public class Persona {
     this.edad = edad;
   }
 
-  public Persona() {
-  }
-
-  public Persona(String nombre, Integer edad) {
-    this.nombre = nombre;
-    this.edad = edad;
+  protected Persona() {
   }
 
   protected Persona(Builder builder) {

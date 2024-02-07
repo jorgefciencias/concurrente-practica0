@@ -13,6 +13,6 @@ public class CuchilloJade implements Cuchillo {
    */
   @Override
   public Integer corta() {
-    return 5;
+    return 3;
   }
 }

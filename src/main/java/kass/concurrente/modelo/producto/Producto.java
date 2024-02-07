@@ -45,12 +45,7 @@ public class Producto {
     this.precio = precio;
   }
 
-  public Producto() {
-  }
-
-  public Producto(String nombre, Double precio) {
-    this.nombre = nombre;
-    this.precio = precio;
+  protected Producto() {
   }
 
   protected Producto(Builder builder) {

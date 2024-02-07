@@ -28,14 +28,7 @@ public class Chef extends Persona {
     this.cuchillo = cuchillo;
   }
 
-  public Chef() {
-    super();
-  }
-
-  public Chef(String nombre, Integer edad, Cuchillo cuchillo) {
-    this.nombre = nombre;
-    this.edad = edad;
-    this.cuchillo = cuchillo;
+  private Chef() {
   }
 
   private Chef(Builder builder) {
