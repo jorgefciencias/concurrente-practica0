@@ -84,6 +84,13 @@ public class Cliente extends Persona {
     private Builder() {
     }
 
+    /**
+     * Método que crea una nueva instancia de la clase a partir
+     * de los datos construidos
+     * 
+     * @return La nueva instancia de la clase
+     */
+    @Override
     public Cliente build() {
       return new Cliente(this);
     }

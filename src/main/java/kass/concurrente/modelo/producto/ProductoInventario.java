@@ -80,6 +80,13 @@ public class ProductoInventario extends Producto {
         private Builder() {
         }
 
+        /**
+         * Método que crea una nueva instancia de la clase a partir
+         * de los datos construidos
+         * 
+         * @return La nueva instancia de la clase
+         */
+        @Override
         public ProductoInventario build() {
             return new ProductoInventario(this);
         }

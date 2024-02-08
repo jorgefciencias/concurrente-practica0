@@ -94,6 +94,12 @@ public class Persona {
     protected Builder() {
     }
 
+    /**
+     * Método que crea una nueva instancia de la clase a partir
+     * de los datos construidos
+     * 
+     * @return La nueva instancia de la clase
+     */
     public Persona build() {
       return new Persona(this);
     }

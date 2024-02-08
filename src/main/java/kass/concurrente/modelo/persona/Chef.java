@@ -81,6 +81,13 @@ public class Chef extends Persona {
     private Builder() {
     }
 
+    /**
+     * Método que crea una nueva instancia de la clase a partir
+     * de los datos construidos
+     * 
+     * @return La nueva instancia de la clase
+     */
+    @Override
     public Chef build() {
       return new Chef(this);
     }
